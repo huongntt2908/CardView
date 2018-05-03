@@ -33,18 +33,18 @@ public class MainActivity extends AppCompatActivity {
 
     public static ArrayList<SingleVertical> getVerticalData() {
         ArrayList<SingleVertical> singleVerticals = new ArrayList<>();
-        singleVerticals.add(new SingleVertical("Charlie Chaplin", "Sir Charles Spencer \"Charlie\" Chaplin, KBE was an English comic actor,....", R.mipmap.charlie));
-        singleVerticals.add(new SingleVertical("Mr.Bean", "Mr. Bean is a British sitcom created by Rowan Atkinson and Richard Curtis, and starring Atkinson as the title character.", R.mipmap.mrbean));
-        singleVerticals.add(new SingleVertical("Jim Carrey", "James Eugene \"Jim\" Carrey is a Canadian-American actor, comedian, impressionist, screenwriter...", R.mipmap.jim));
+        singleVerticals.add(new SingleVertical("47 ký lô", "là idol của tôi, hòa đồng, vui vẻ, lâu lâu hơi cộc tính xíu.....", R.mipmap.hoaiphuong));
+        singleVerticals.add(new SingleVertical("Chi wa wa", "là pet cưng của tôi, người đồng hành cùng tôi các kỉ niệm của thời sinh viên nội trú", R.mipmap.haoanh));
+        singleVerticals.add(new SingleVertical("Anti cả thế giới", "Đây là nhóm của tôi vừa quen khi chuyển phòng nội trú, họ giúp tôi nhận ra chỉ cần ta mở lòng thì mọi thứ đều trở nên tốt đẹp", R.mipmap.anti));
         return singleVerticals;
     }
 
 
     public static ArrayList<SingleHorizontal> getHorizontalData() {
         ArrayList<SingleHorizontal> singleHorizontals = new ArrayList<>();
-        singleHorizontals.add(new SingleHorizontal(R.mipmap.charlie, "Charlie Chaplin", "Sir Charles Spencer \"Charlie\" Chaplin, KBE was an English comic actor,....", "2010/2/1"));
-        singleHorizontals.add(new SingleHorizontal(R.mipmap.mrbean, "Mr.Bean", "Mr. Bean is a British sitcom created by Rowan Atkinson and Richard Curtis, and starring Atkinson as the title character.", "2010/2/1"));
-        singleHorizontals.add(new SingleHorizontal(R.mipmap.jim, "Jim Carrey", "James Eugene \"Jim\" Carrey is a Canadian-American actor, comedian, impressionist, screenwriter...", "2010/2/1"));
+        singleHorizontals.add(new SingleHorizontal(R.mipmap.hoaiphuong, "47 ký lô", "là idol của tôi, hòa đồng, vui vẻ, lâu lâu hơi cộc tính xíu.....", "1997/12/25"));
+        singleHorizontals.add(new SingleHorizontal(R.mipmap.haoanh, "Chi wa wa", "là pet cưng của tôi, người đồng hành cùng tôi các kỉ niệm của thời sinh viên nội trú", "1997/7/12"));
+        singleHorizontals.add(new SingleHorizontal(R.mipmap.anti, "Anti cả thế giới", "Đây là nhóm của tôi vừa quen khi chuyển phòng nội trú, họ giúp tôi nhận ra chỉ cần ta mở lòng thì mọi thứ đều trở nên tốt đẹp", "2018/2/26"));
         return singleHorizontals;
     }
 
